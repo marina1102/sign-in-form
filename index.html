@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="" />
+	<link rel="icon" href="favicon.png"/>
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="css/style.css" />
+
+</head>
+<body>
+<div class="ba-container">
+	
+	<div class="ba-form">
+		<div class="ba-title" >
+		<label class="ba-title-sign" for="signin">Sign in</label>
+		<label class="ba-title-join" for="joinus">Join us</label></div>
+		<form action="#" method="POST" class="ba-form-signin">
+			<label for="username">Username</label>
+			<input id ="username" class="ba-full-width" type="text" name="username" maxlength="4" required>
+			<label for="password">Password</label>
+			<input id="password" class="ba-full-width" type="password" minlength="8" required>
+			<label class="ba-checkbox-label">
+			<input class="ba-checkbox" name="checkbox" type="checkbox" required><div class="ba-checkbox__text">Keep me signed in</div>
+		</label>
+			<button class="ba-button">Sign in</button>
+			<div class="ba-footer">
+			<!-- /.ba-footer -->
+			<a href="#">Forgot password</a>
+			<a href="#">Create an account</a>
+		</div>
+	</form>
+
+</div>
+<!-- /.ba-form -->
+</div>
+<!-- /.ba-container -->
+
+</body>
+</html>
